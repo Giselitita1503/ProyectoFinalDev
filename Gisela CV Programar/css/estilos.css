@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /**background-color: rgb(231, 199, 247);**/
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton {
+    text-align: left;
+    border-style: none;
+    padding: 150px;
+ 
+}
+
+.fotoDany {
+
+    width: 250px;
+    height: 250px;
+    padding: 65px;
+    border-radius: 50%;
+    filter: drop-shadow(20px 40px 60px black);
+
+}
+
+
+#botoninicio {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+
+    /**display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+width: 500px;
+height: 400px;
+align-content: space-between;**/
+}
+
+#menu {
+    padding: 15px;
+    text-align: center;
+    margin: 15px;
+}
+
+.infoboton {
+    background: fixed rgb(235, 157, 157);
+    border-radius: 5px 0px 5px 0px;
+    width: 130px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+
+}
+
+.infoboton {
+    text-align: center;
+    padding: 20px;
+}
+
+.experienciaboton {
+    background: fixed rgb(131, 91, 226);
+    border-radius: 5px 0px 5px 0px;
+    width: 130px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.experienciaboton {
+    text-align: center;
+    padding: 30px;
+}
+
+.habilidadesboton {
+    background: fixed rgb(23, 138, 12);
+    border-radius: 5px 0px 5px 0px;
+    width: 130px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.habilidadesboton {
+    text-align: center;
+    padding: 30px;
+}
+
+.contactoboton {
+    background: fixed rgb(223, 176, 24);
+    border-radius: 5px 0px 5px 0px;
+    width: 130px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contactoboton {
+    text-align: center;
+    padding: 30px;
+}
+
+.Datospersonales,
+ul {
+
+    list-style: none;
+    text-align: justify;
+    padding-inline: 10px;
+}
+
+/**.listaordenada {
+
+}
+**/
+.contacto {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: aquamarine;
+
+}
+
+.contacto h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 10px;
+
+}
+
+.mensaje {
+    width: 100%;
+    height: 75%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 10px;
+
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .contacto {
+        width: 85%;
+    }
+}
+
+
+
+footer {
+    padding: 30px;
+    text-shadow: 1px 4px 3px rgb(170, 167, 167);
+}
